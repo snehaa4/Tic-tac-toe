@@ -52,6 +52,9 @@ h1{
 }
 
 @media (max-width: 1484px){
+    .container{
+        height: 50vh;
+    }
     .box{
         height: 30vh;
         width: 50%;
@@ -70,12 +73,21 @@ h1{
         font-size: 3rem;
         
     }
+
+    .reset{
+        width: 15%;
+        height: 7%;
+        font-size: 1.5rem;
+        margin: 5px;
+        border-radius: 14px;
+        background-color: #C69774;
+    }
 }
 
 @media (max-width:805px) {
     .box{
-        height: 21vh;
-        width: 50%;
+        height: 20vh;
+        width: 57%;
         justify-content: center;
         gap: 5px;
     }
@@ -93,5 +105,10 @@ h1{
         color: white;
         font-size: 2rem;
         
+    }
+    .reset{
+        width: 18%;
+        height: 7%;
+        font-size: 1rem;
     }
 }
